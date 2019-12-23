@@ -11,3 +11,7 @@ a {
 a:hover {
     font-weight: bold;
 }
+
+* {
+    box-sizing: border-box;
+}
