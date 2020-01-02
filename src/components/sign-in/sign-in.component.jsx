@@ -51,7 +51,7 @@ class SignIn extends React.Component {
                         value={this.state.password}
                         label='Password'
                         handleChange={this.handleChange}
-                        require
+                        required
                     />
                     <div className='buttons'>
                         <CustomButton type='submit'> Sign In </CustomButton>
