@@ -1,7 +1,8 @@
 .collection-item {
-  width: 22%;
+  width: 22vw;
   display: flex;
   flex-direction: column;
+  // padding: 5px; // my addition for overlap
   height: 350px;
   align-items: center;
   position: relative;
@@ -34,20 +35,19 @@
   }
 
   .collection-footer {
-    width: 100%;
+    width: 100%; // FIXME: if overlap
     height: 5%;
     display: flex;
     justify-content: space-between;
     font-size: 18px;
 
     .name {
-      width: 90%;
+      width: 90%; // FIXME: if overlap
       margin-bottom: 15px;
     }
 
     .price {
-      width: 10%;
+      width: 10%; // FIXME: if overlap
     }
   }
 }
-  
